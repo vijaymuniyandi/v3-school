@@ -1,0 +1,498 @@
+<html>
+<head>
+<title>
+v3 school
+</title>
+<link rel="stylesheet" href="C Program.css">
+</head>
+<body>
+<section>
+
+<div class="circle circle1">
+<img src="https://inspirechange27.files.wordpress.com/2018/12/dr_m.jpg?w=363">
+</div>
+
+<div>
+<center>
+<h2> C PROGRAM</h2>
+</center>
+</div>
+<h3><u>ENGLISH</u></h3>
+<br><p>The C programming language is a procedural and general-purpose language that provides low-level access to system memory. A program written in C must be run through a C compiler to convert it into an executable that a computer can run. Many versions of Unix-based operating systems (OSes) are written in C and it has been standardized as part of the Portable Operating System Interface (POSIX).
+</u>
+</p>
+<br><h3><u>TAMIL</ur></h3>
+</u>
+<br><p>சி நிரலாக்க மொழி என்பது ஒரு செயல்முறை மற்றும் பொது-நோக்க மொழியாகும், இது கணினி நினைவகத்திற்கு குறைந்த அளவிலான அணுகலை வழங்குகிறது. C இல் எழுதப்பட்ட ஒரு நிரலை C கம்பைலர் மூலம் இயக்க வேண்டும், அதை ஒரு கணினி இயக்கக்கூடிய இயங்கக்கூடியதாக மாற்ற வேண்டும். யூனிக்ஸ்-அடிப்படையிலான இயக்க முறைமைகளின் (ஓஎஸ்) பல பதிப்புகள் சி இல் எழுதப்பட்டுள்ளன, மேலும் இது போர்ட்டபிள் ஆப்பரேட்டிங் சிஸ்டம் இடைமுகத்தின் (போசிக்ஸ்) ஒரு பகுதியாக தரப்படுத்தப்பட்டுள்ளது.</p>
+</u>
+<br><h4>SYNTAX :</h4>
+<br>
+ <div id="node-174" class="node node-c-example clearfix" about="/c-programming/examples/print-sentence" typeof="sioc:Item foaf:Document">
+
+  
+      <span property="dc:title" content='C "Hello, World!" Program' class="rdf-meta element-hidden"></span>
+  
+  <div class="content">
+      <h2>1.Program to Display "Hello, World!"</h2>
+</u>
+<pre class="c-exec">
+<code>#include &lt;stdio.h&gt;
+int main() {
+   // printf() displays the string inside quotation
+   printf("Hello, World!");
+   return 0;
+}
+</code></pre>
+
+<p><strong><u>Output</u> </strong></p>
+
+<pre>
+<samp>Hello, World!
+</samp></pre>
+
+<hr>
+<h2>How "Hello, World!" program works?</h2>
+
+
+	<li>The <code>#include<stdio.h></stdio.h></code> is a preprocessor command that tells the compiler to include the contents of <code>stdio.h</code> (standard input and output) file in the program.</li>
+	<li>The <code>stdio.h</code> file contains functions such as <code>scanf()</code> and <code>printf()</code> to take input and display output respectively.</li>
+	<li>If you use the <code>printf()</code> function without writing <code>#include &lt;stdio.h&gt;</code>, the program will not compile.</li>
+	<li>The execution of a C program starts from the <code>main()</code> function.</li>
+	<li><code>printf()</code> is a library function to send formatted output to the screen. In this program, <code>printf()</code> displays <samp>Hello, World!</samp> text on the screen.</li>
+	<li>The <code>return 0;</code> statement is the <strong>"Exit status"</strong> of the program. In simple terms, the program ends with this statement.</li>
+
+  </div>
+
+  </ul>
+  
+</div>
+
+                  
+                          </div>
+
+                          <div class="block">
+
+<div id="div-gpt-ad-Programizcom36791" class="content-top-ad" style="height:90px; width:728px; margin-bottom: 24px;">
+    </div>
+ 
+                
+                
+            <div class="editor-contents">
+                              <h1>C Program to Print an Integer (Entered by the User)</h1>
+              
+              
+                              <p class="editor-contents__short-description">In this example, the integer entered by the user is stored in a variable and printed on the screen.</p>
+              
+              
+              <p>To understand this example, you should have the knowledge of the following <a href="/c-programming" title="C tutorial">C programming</a> topics:</p><ul><li><a href="/c-programming/c-variables-constants">C Variables, Constants and Literals</a></li><li><a href="/c-programming/c-data-types">C Data Types</a></li><li><a href="/c-programming/c-input-output">C Input Output (I/O)</a></li></ul><hr>
+                                
+    
+    
+    
+    <div id="node-175" class="node node-c-example clearfix" about="/c-programming/examples/print-integer" typeof="sioc:Item foaf:Document">
+
+  
+      <span property="dc:title" content="C Program to Print an Integer (Entered by the User)" class="rdf-meta element-hidden"></span>
+  <br>
+  <div class="content">
+      <h2> 2.Program to Print an Integer</h2>
+
+<pre class="c-exec">
+<code>#include &lt;stdio.h&gt;
+int main() {   
+    int number;
+   
+    printf("Enter an integer: ");  
+    
+    // reads and stores input
+    scanf("%d", &amp;number);
+
+    // displays output
+    printf("You entered: %d", number);
+    
+    return 0;
+}
+</code></pre>
+<br>
+<p><strong><u>Output</u> </strong></p>
+
+<pre>
+<samp>Enter an integer: 25
+You entered: 25
+</samp></pre>
+
+<p>In this program, an integer variable <var>number</var> is declared.</p>
+
+<pre>
+<code>int number;
+</code></pre>
+
+<p></p><div id="block-inject-1" class="block-inject block-inject-1"></div><div class="clearfix"></div><p>Then, the user is asked to enter an integer number. This number is stored in the <var>number</var> variable.</p>
+
+<pre>
+<code>printf("Enter an integer: ");
+scanf("%d", &amp;number);
+</code></pre>
+
+<p>Finally, the value stored in <var>number</var> is displayed on the screen using <code>printf()</code>.</p>
+<br>
+<pre>
+<code>printf("You entered: %d", number);
+</code></pre>
+  </div>
+
+</div>
+                  
+                          </div>
+
+                          <div class="block">
+
+       <br>
+ 
+    <div id="div-gpt-ad-Programizcom36791" class="content-top-ad" style="height:90px; width:728px; margin-bottom: 24px;">
+    </div>
+    
+<div id="div-gpt-ad-Programizcom39106" class="content-top-ad" style="height: 100px; margin-bottom: 24px; "></div>
+
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO7BcjAGBJ9oG9fQMSLDWAVPD1dh2-feFQzioNed4Y70PfInyceuV1P298iWOB3Vj8yn0&usqp=CAU">
+            <div class="editor-contents">
+                              <h1>C Program to Add Two Integers</h1>
+              
+              
+                              <p class="editor-contents__short-description">In this example, the user is asked to enter two integers. Then, the sum of these two integers is calculated and displayed on the screen.</p>
+              
+              
+              <p>To understand this example, you should have the knowledge of the following <a href="/c-programming" title="C tutorial">C programming</a> topics:</p><ul><li><a href="/c-programming/c-data-types">C Data Types</a></li><li><a href="/c-programming/c-variables-constants">C Variables, Constants and Literals</a></li><li><a href="/c-programming/c-input-output">C Input Output (I/O)</a></li><li><a href="/c-programming/c-operators">C Programming Operators</a></li></ul><hr>
+                                
+    
+    
+    
+    <div id="node-176" class="node node-c-example clearfix" about="/c-programming/examples/add-numbers" typeof="sioc:Item foaf:Document">
+
+  
+      <span property="dc:title" content="C Program to Add Two Integers" class="rdf-meta element-hidden"></span>
+  
+  <div class="content">
+      <h2>3.Program to Add Two Integers</h2>
+
+<pre class="c-exec">
+<code>#include &lt;stdio.h&gt;
+int main() {    
+
+    int number1, number2, sum;
+    
+    printf("Enter two integers: ");
+    scanf("%d %d", &amp;number1, &amp;number2);
+
+    // calculating sum
+    sum = number1 + number2;      
+    
+    printf("%d + %d = %d", number1, number2, sum);
+    return 0;
+}
+</code></pre>
+
+<p><strong><u>Output</u></strong></p>
+
+<pre>
+<samp>Enter two integers: 12
+11
+12 + 11 = 23
+</samp></pre>
+<figure><img alt="Adding two integers in C programming" height="184" src="data:image/png;base64,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" width="350">
+	<figcaption>Add Two Numbers</figcaption>
+</figure>
+<hr>
+<p>In this program, the user is asked to enter two integers. These two integers are stored in variables <var>number1</var> and <var>number2</var> respectively.</p>
+
+<pre>
+<code>printf("Enter two integers: ");
+scanf("%d %d", &amp;number1, &amp;number2);
+</code></pre>
+
+<p></p><div id="block-inject-1" class="block-inject block-inject-1"></div><div class="clearfix"></div><p>Then, these two numbers are added using the <code>+</code> operator, and the result is stored in the <var>sum</var> variable.</p>
+
+<pre>
+<code>sum = number1 + number2;
+</code></pre>
+
+
+
+<p>Finally, the <code>printf()</code> function is used to display the sum of numbers.</p>
+
+<pre>
+<code>printf("%d + %d = %d", number1, number2, sum);
+</code></pre>
+  </div>
+
+  
+  
+</div>
+
+                  
+                          </div>
+
+                          <div class="block">
+<img height=200 width="350" padding=50px src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN3yJLxXldVPzeX76Ag-lTovliIKN1xzNzpg&usqp=CAU">
+<div id="div-gpt-ad-Programizcom36791" class="content-top-ad" style="height:90px; width:728px; margin-bottom: 24px;">
+    </div>
+    
+<div id="div-gpt-ad-Programizcom39106" class="content-top-ad" style="height: 100px; margin-bottom: 24px; "></div>
+
+                
+            <div class="editor-contents">
+                              <h1 width="50" height="200">C Program to Multiply Two Floating-Point Numbers</h1>
+              
+              
+                              <p class="editor-contents__short-description">In this example, the product of two floating-point numbers entered by the user is calculated and printed on the screen.</p>
+              
+              
+              <p>To understand this example, you should have the knowledge of the following <a href="/c-programming" title="C tutorial">C programming</a> topics:</p><ul><li><a href="/c-programming/c-variables-constants">C Variables, Constants and Literals</a></li><li><a href="/c-programming/c-data-types">C Data Types</a></li><li><a href="/c-programming/c-input-output">C Input Output (I/O)</a></li><li><a href="/c-programming/c-operators">C Programming Operators</a></li></ul><hr>
+                                
+    
+    
+    
+    <div id="node-177" class="node node-c-example clearfix" about="/c-programming/examples/product-numbers" typeof="sioc:Item foaf:Document">
+
+  <br>
+      <span property="dc:title" content="C Program to Multiply Two Floating-Point Numbers" class="rdf-meta element-hidden"></span>
+  
+  <div class="content">
+      <h2>4.Program to Multiply Two Numbers</h2>
+
+<pre class="c-exec">
+<code>#include &lt;stdio.h&gt;
+int main() {
+    double a, b, product;
+    printf("Enter two numbers: ");
+    scanf("%lf %lf", &amp;a, &amp;b);  
+ 
+    // Calculating product
+    product = a * b;
+
+    // %.2lf displays number up to 2 decimal point
+    printf("Product = %.2lf", product);
+    
+    return 0;
+}
+</code></pre>
+
+<p><strong><u>Output </u></strong></p>
+
+<pre>
+<code>Enter two numbers: 2.4
+1.12
+Product = 2.69
+</code></pre>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTrSZUYDY94l2qgp4cXgATSpe-cHw5FP40Lw&usqp=CAU">
+<hr>
+<p>In this program, the user is asked to enter two numbers which are stored in variables <var>a</var> and <var>b</var> respectively.</p>
+
+<pre>
+<code>printf("Enter two numbers: ");
+scanf("%lf %lf", &amp;a, &amp;b); 
+</code></pre>
+
+<p>Then, the product of <var>a</var> and <var>b</var> is evaluated and the result is stored in <var>product</var>.</p>
+
+<pre>
+<code>product = a * b;
+</code></pre>
+
+<p></p><div id="block-inject-1" class="block-inject block-inject-1"></div><div class="clearfix"></div><p>Finally, <var>product</var> is displayed on the screen using <code>printf()</code>.</p>
+
+<pre>
+<code>printf("Product = %.2lf", product);
+</code></pre>
+
+<p>Notice that, the result is rounded off to the second decimal place using <code>%.2lf</code> conversion character.</p>
+  </div>
+
+  
+  
+</div>
+
+                  
+                          </div>
+
+                          <div class="block">
+<br>
+
+<br>    <hr>                       
+    <br>
+
+ <br><div id="node-178" class="node node-c-example clearfix" about="/c-programming/examples/ASCII-value-character" typeof="sioc:Item foaf:Document">
+
+  
+      <span property="dc:title" content="C Program to Find ASCII Value of a Character" class="rdf-meta element-hidden"></span>
+  
+  <div class="content">
+      <p>In C programming, a character variable holds ASCII value (an integer number between 0 and 127) rather than that character itself. This integer value is the ASCII code of the character.</p>
+
+<p>For example, the ASCII value of <code>'A'</code> is 65.</p>
+
+<p>What this means is that, if you assign <code>'A'</code> to a character variable, 65 is stored in the variable rather than <code>'A'</code> itself.</p>
+
+<p>Now, let's see how we can print the ASCII value of characters in C programming.</p>
+
+<hr>
+<br><h2> 5. Program to Print ASCII Value</h2>
+
+<pre class="c-exec">
+<code>#include &lt;stdio.h&gt;
+int main() {  
+    char c;
+    printf("Enter a character: ");
+    scanf("%c", &amp;c);  
+    
+    // %d displays the integer value of a character
+    // %c displays the actual character
+    printf("ASCII value of %c = %d", c, c);
+    
+    return 0;
+}
+</code></pre>
+
+<p></p><div id="block-inject-1" class="block-inject block-inject-1"></div><div class="clearfix"></div><p><strong><u>Output</u></strong></p>
+
+<pre>
+<samp>Enter a character: G
+ASCII value of G = 71
+</samp></pre>
+<img src="data:image/jpeg;base64,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">
+<hr>
+<p>In this program, the user is asked to enter a character. The character is stored in variable <var>c</var>.</p>
+
+<p>When <code>%d</code> format string is used, <strong>71</strong> (the ASCII value of <code>G</code>) is displayed.</p>
+
+<p>When <code>%c</code> format string is used, <code>'G'</code> itself is displayed.</p>
+  </div>
+
+  
+  
+</div>
+
+                  
+                          </div>
+
+                          <div class="block">
+<br>
+    <div id="div-gpt-ad-Programizcom36791" class="content-top-ad" style="height:90px; width:728px; margin-bottom: 24px;">
+    </div>
+    
+<div id="div-gpt-ad-Programizcom39106" class="content-top-ad" style="height: 100px; margin-bottom: 24px; "></div>
+
+                
+            <div class="editor-contents">
+                              <h1>C Program to Compute Quotient and Remainder </h1>
+              
+              
+                              <p class="editor-contents__short-description">In this example, you will learn to find the quotient and remainder when an integer is divided by another integer.</p>
+              
+              
+              <p>To understand this example, you should have the knowledge of the following <a href="/c-programming" title="C tutorial">C programming</a> topics:</p><ul><li><a href="/c-programming/c-data-types">C Data Types</a></li><li><a href="/c-programming/c-variables-constants">C Variables, Constants and Literals</a></li><li><a href="/c-programming/c-input-output">C Input Output (I/O)</a></li><li><a href="/c-programming/c-operators">C Programming Operators</a></li></ul><hr>
+                                
+    
+    
+    
+    <div id="node-179" class="node node-c-example clearfix" about="/c-programming/examples/remainder-quotient" typeof="sioc:Item foaf:Document">
+
+  
+      <span property="dc:title" content="C Program to Compute Quotient and Remainder " class="rdf-meta element-hidden"></span>
+  
+  <div class="content">
+
+  <br>    <h2>6.Program to Compute Quotient and Remainder</h2>
+<p><u><b>syntax</b>: Program to Compute Quotient and Remainder</u>
+<pre class="c-exec">
+<code><br>#include &lt;stdio.h&gt;
+int main() {
+    int dividend, divisor, quotient, remainder;
+    printf("Enter dividend: ");
+    scanf("%d", &amp;dividend);
+    printf("Enter divisor: ");
+    scanf("%d", &amp;divisor);
+
+    // Computes quotient
+    quotient = dividend / divisor;
+
+    // Computes remainder
+    remainder = dividend % divisor;
+
+    printf("Quotient = %d\n", quotient);
+    printf("Remainder = %d", remainder);
+    return 0;
+}
+</code></pre>
+
+<p><strong><u>Output</u> </strong></p>
+
+<pre>
+<samp>Enter dividend: 25
+Enter divisor: 4
+Quotient = 6
+Remainder = 1 
+</samp></pre>
+<img src="data:image/jpeg;base64,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">
+<hr>
+<p>In this program, the user is asked to enter two integers (dividend and divisor). They are stored in variables <var>dividend</var> and <var>divisor</var> respectively.</p>
+
+<pre>
+<code>printf("Enter dividend: ");
+scanf("%d", &amp;dividend);
+printf("Enter divisor: ");
+scanf("%d", &amp;divisor);
+</code></pre>
+
+<p>Then the quotient is evaluated using <code>/</code> (the division operator), and stored in <var>quotient</var>.</p>
+
+<pre>
+<code>quotient = dividend / divisor;
+</code></pre>
+
+<p></p><div id="block-inject-1" class="block-inject block-inject-1"></div><div class="clearfix"></div><p>Similarly, the remainder is evaluated using <code>%</code> (the modulo operator) and stored in <var>remainder</var>.</p>
+
+<pre>
+<code>remainder = dividend % divisor;
+</code></pre>
+
+<p>Finally, the quotient and remainder are displayed using <code>printf()</code>.</p>
+
+<pre>
+<code>printf("Quotient = %d\n", quotient);
+printf("Remainder = %d", remainder);
+</code></pre>
+
+<p>Learn more about <a href="/c-programming/c-operators" title="C Operators">how operators work in C programming</a>.</p>
+  </div>
+
+  
+  
+</div>
+
+                  
+                          </div>
+
+                          <div class="block">
+                  
+<section class="vote-share-wrapper">
+    <div class="share-wrapper">
+        <span>Share on:</span>
+        <div class="share-buttons-container">
+            <div class="social-button-individual"><a href="https://www.facebook.com/sharer/sharer.php?u=https://www.programiz.com/c-programming/examples/print-sentence"><svg width="32" height="32" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"> <circle cx="16" cy="16" r="15.3333" fill="white" stroke="#0556F3" stroke-width="1.33333"></circle> <path fill-rule="evenodd" clip-rule="evenodd" d="M18.9167 10.168H17.1667C15.5558 10.168 14.25 11.4738 14.25 13.0846V14.8346H12.5V17.168H14.25V21.8346H16.5833V17.168H18.3333L18.9167 14.8346H16.5833V13.0846C16.5833 12.7625 16.8445 12.5013 17.1667 12.5013H18.9167V10.168Z" stroke="#0556F3" stroke-width="1.16999" stroke-linecap="round" stroke-linejoin="round"></path> </svg></a></div>
+            <div class="social-button-individual"><a href="https://twitter.com/intent/tweet?text=Check%20this%20amazing%20article%20on%20C%20%22Hello,%20World!%22%20Program:%20&amp;via=programiz&amp;url=https://www.programiz.com/c-programming/examples/print-sentence"><svg width="32" height="32" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"> <circle cx="16" cy="16" r="15.3333" fill="white" stroke="#0556F3" stroke-width="1.33333"></circle> <path fill-rule="evenodd" clip-rule="evenodd" d="M22.4167 10.7521C21.8581 11.1461 21.2396 11.4475 20.585 11.6446C19.8654 10.8171 18.7058 10.527 17.6813 10.918C16.6568 11.309 15.9853 12.2981 16 13.3946V13.9779C13.9179 14.0319 11.9471 13.0399 10.75 11.3354C10.75 11.3354 8.41671 16.5854 13.6667 18.9187C12.4653 19.7342 11.0342 20.1431 9.58337 20.0854C14.8334 23.0021 21.25 20.0854 21.25 13.3771C21.2495 13.2146 21.2339 13.0525 21.2034 12.8929C21.7987 12.3058 22.2189 11.5645 22.4167 10.7521Z" stroke="#0556F3" stroke-width="1.22222" stroke-linecap="round" stroke-linejoin="round"></path> </svg></a></div>
+            <div class="social-button-individual"><a href="https://api.whatsapp.com//send?text=Check+this+amazing+article+on+C%20%22Hello,%20World!%22%20Program:+https://www.programiz.com/c-programming/examples/print-sentence"><svg width="32" height="32" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"> <circle cx="16" cy="16" r="15.3333" fill="white" stroke="#0556F3" stroke-width="1.33333"></circle> <path d="M21.0115 10.9885C19.7291 9.70613 18.0245 9 16.2108 9C16.2107 9 16.2103 9 16.2102 9C15.3132 9.00011 14.4391 9.17378 13.6122 9.51633C12.7853 9.85887 12.0445 10.3542 11.4101 10.9885C10.1278 12.2708 9.42169 13.9757 9.42169 15.7892C9.42169 16.8706 9.68263 17.9454 10.1771 18.9029L9.03589 22.163C8.95546 22.393 9.01239 22.6429 9.18479 22.8152C9.30538 22.9359 9.4641 23 9.62731 23C9.69727 23 9.76798 22.9883 9.83698 22.9641L13.0971 21.823C14.0546 22.3175 15.1294 22.5784 16.2108 22.5784C18.0243 22.5784 19.7291 21.8722 21.0115 20.5899C22.2938 19.3076 23 17.6027 23 15.7893C23 13.9757 22.2939 12.2708 21.0115 10.9885ZM20.4309 20.0093C19.3037 21.1366 17.8049 21.7572 16.2108 21.7572C15.2357 21.7572 14.2669 21.5161 13.4092 21.0596C13.2537 20.9769 13.0698 20.9627 12.9048 21.0205L9.94293 22.0571L10.9796 19.0952C11.0374 18.9299 11.0231 18.7461 10.9404 18.5907C10.484 17.7332 10.2428 16.7645 10.2428 15.7892C10.2428 14.1951 10.8635 12.6963 11.9907 11.5691C13.1178 10.4421 14.6164 9.82127 16.2103 9.82106H16.2108C17.805 9.82106 19.3037 10.4418 20.4309 11.5691C21.5582 12.6963 22.1789 14.195 22.1789 15.7892C22.1789 17.3833 21.5582 18.8821 20.4309 20.0093Z" fill="#0556F3" stroke="#0556F3" stroke-width="0.3"></path> <path d="M18.734 16.3976C18.4216 16.0853 17.9134 16.0853 17.6011 16.3976L17.2595 16.7392C16.4113 16.277 15.725 15.5906 15.2627 14.7424L15.6043 14.4009C15.9167 14.0885 15.9167 13.5803 15.6043 13.268L14.6838 12.3475C14.3715 12.0352 13.8633 12.0352 13.5509 12.3475L12.8146 13.0839C12.3928 13.5057 12.3717 14.2308 12.7553 15.1258C13.0883 15.9028 13.6978 16.7569 14.4714 17.5305C15.2451 18.3042 16.0991 18.9137 16.8762 19.2467C17.3014 19.4289 17.6882 19.5198 18.0224 19.5198C18.3916 19.5198 18.6967 19.4088 18.9181 19.1874L19.6545 18.4509V18.451C19.8058 18.2997 19.8891 18.0986 19.8891 17.8846C19.8891 17.6706 19.8058 17.4695 19.6545 17.3182L18.734 16.3976ZM18.3375 18.6068C18.2171 18.7272 17.8469 18.7693 17.1997 18.4921C16.5163 18.1992 15.7536 17.6515 15.0521 16.9499C14.3505 16.2484 13.8029 15.4857 13.51 14.8024C13.2326 14.1552 13.2748 13.7849 13.3952 13.6645L14.1175 12.9422L15.0096 13.8344L14.582 14.2621C14.3887 14.4554 14.342 14.7486 14.466 14.9917C15.0281 16.094 15.9079 16.9738 17.0102 17.536C17.2535 17.66 17.5466 17.6134 17.74 17.42L18.1675 16.9924L19.0597 17.8846L18.3375 18.6068Z" fill="#0556F3" stroke="#0556F3" stroke-width="0.3"></path> </svg></a></div>
+            <div class="social-button-individual"><a href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.programiz.com/c-programming/examples/print-sentence"><svg width="32" height="32" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"> <circle cx="16" cy="16" r="15.3333" fill="white" stroke="#0556F3" stroke-width="1.33333"></circle> <path d="M13.3748 14.5417V20.375C13.3748 20.4524 13.3441 20.5265 13.2894 20.5812C13.2347 20.6359 13.1605 20.6667 13.0832 20.6667H11.6248C11.5475 20.6667 11.4733 20.6359 11.4186 20.5812C11.3639 20.5265 11.3332 20.4524 11.3332 20.375V14.5417C11.3332 14.4643 11.3639 14.3901 11.4186 14.3354C11.4733 14.2807 11.5475 14.25 11.6248 14.25H13.0832C13.1605 14.25 13.2347 14.2807 13.2894 14.3354C13.3441 14.3901 13.3748 14.4643 13.3748 14.5417ZM21.2498 16.8225C21.2596 16.2095 21.0596 15.6115 20.683 15.1277C20.3063 14.644 19.7757 14.3034 19.179 14.1625C18.773 14.0751 18.352 14.0861 17.9511 14.1947C17.5502 14.3033 17.1812 14.5063 16.8748 14.7867V14.5417C16.8748 14.4643 16.8441 14.3901 16.7894 14.3354C16.7347 14.2807 16.6605 14.25 16.5832 14.25H15.1248C15.0475 14.25 14.9733 14.2807 14.9186 14.3354C14.8639 14.3901 14.8332 14.4643 14.8332 14.5417V20.375C14.8332 20.4524 14.8639 20.5265 14.9186 20.5812C14.9733 20.6359 15.0475 20.6667 15.1248 20.6667H16.5832C16.6605 20.6667 16.7347 20.6359 16.7894 20.5812C16.8441 20.5265 16.8748 20.4524 16.8748 20.375V17.085C16.8679 16.8012 16.9611 16.524 17.1382 16.3021C17.3153 16.0802 17.5649 15.9278 17.8432 15.8717C18.0121 15.8425 18.1854 15.8509 18.3507 15.8964C18.516 15.9418 18.6693 16.0231 18.7996 16.1345C18.93 16.2459 19.0341 16.3846 19.1047 16.5408C19.1754 16.697 19.2107 16.8669 19.2082 17.0383V20.375C19.2082 20.4524 19.2389 20.5265 19.2936 20.5812C19.3483 20.6359 19.4225 20.6667 19.4998 20.6667H20.9582C21.0355 20.6667 21.1097 20.6359 21.1644 20.5812C21.2191 20.5265 21.2498 20.4524 21.2498 20.375V16.8225ZM12.2082 10.75C11.9774 10.75 11.7519 10.8184 11.56 10.9466C11.3681 11.0748 11.2186 11.257 11.1303 11.4702C11.042 11.6834 11.0189 11.918 11.0639 12.1443C11.1089 12.3706 11.2201 12.5785 11.3832 12.7416C11.5464 12.9048 11.7543 13.0159 11.9806 13.0609C12.2069 13.1059 12.4415 13.0828 12.6546 12.9945C12.8678 12.9062 13.05 12.7567 13.1782 12.5648C13.3064 12.373 13.3748 12.1474 13.3748 11.9167C13.3748 11.6072 13.2519 11.3105 13.0331 11.0917C12.8143 10.8729 12.5176 10.75 12.2082 10.75Z" fill="#0556F3"></path> </svg></a></div>
+        </div>
+    </div>
+
+
+
+<br>
+
+
+
+
+</section>
+</body>
+</html>
